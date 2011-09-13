@@ -8,13 +8,13 @@
 	<string>#!/usr/bin/env ruby
 require ENV['TM_SUPPORT_PATH'] + '/lib/escape.rb'
 
-print e_sn(STDIN.read).gsub(/(\w+)/,'\1$1')</string>
+print e_sn(STDIN.read).gsub(/(\w+)/,'\1${1}')</string>
 	<key>fallbackInput</key>
 	<string>line</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string>~@.</string>
+	<string>^~.</string>
 	<key>name</key>
 	<string>Insert after each word</string>
 	<key>output</key>
